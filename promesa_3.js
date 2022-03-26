@@ -18,7 +18,7 @@ function principal(ususario,password,){
 }
 principal('juanes128','loguin123')
 //manejo de excepcion del cumplimiento de una promesa 
-.them(function(respuesta_resolve){
+.then(function(respuesta_resolve){
     console.log(respuesta_resolve)
 })
 .catch(function(respuesta_rejec){
